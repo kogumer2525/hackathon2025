@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <header className="relative w-full h-screen overflow-hidden">
-
       {/* 背景画像（画面全体）
       <div className="absolute inset-0 w-full h-full -z-10">
         <img
@@ -31,13 +30,23 @@ export default function Navbar() {
       {/* ナビバー */}
       <nav className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-teal-400 to-green-400 shadow-md z-10">
         <ul className="w-full flex justify-center gap-6 px-4 py-2 text-white font-medium text-sm">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/schedule">スケジュール</Link></li>
-          <li><Link to="/members">members</Link></li>
-          <li><Link to="/news">新歓情報</Link></li>
-          <li><Link to="/links">Link</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/schedule">スケジュール</Link>
+          </li>
+          <li>
+            <Link to="/members">members</Link>
+          </li>
+          <li>
+            <Link to="/news">新歓情報</Link>
+          </li>
+          <li>
+            <Link to="/links">Link</Link>
+          </li>
         </ul>
       </nav>
     </header>
-  )
+  );
 }

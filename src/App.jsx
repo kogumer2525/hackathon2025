@@ -1,11 +1,11 @@
-import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import Schedule from './pages/Schedule'
-import Members from './pages/Members'
-import News from './pages/News'
-import Links from './pages/Links'
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Schedule from "./pages/Schedule";
+import Members from "./pages/Members";
+import News from "./pages/News";
+import Links from "./pages/Links";
 
 export default function App() {
   return (
@@ -20,5 +20,5 @@ export default function App() {
         <Route path="/links" element={<Links />} />
       </Routes>
     </>
-  )
+  );
 }
