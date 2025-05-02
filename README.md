@@ -64,11 +64,15 @@ my-teara-site/
 ```bash
 git clone https://github.com/Yurin/TEAra_homepage.git
 cd TEAra_homepage
+```
 ### 2. パッケージをインストール
+```bash
 npm install
-
+```
 ### 3. 開発サーバーを起動
+```bash
 npm run dev
+```
 ブラウザで http://localhost:5173 にアクセスして確認できます！
 
 
