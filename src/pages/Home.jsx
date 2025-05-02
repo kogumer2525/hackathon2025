@@ -28,9 +28,7 @@ export default function Home() {
         <h3 className="text-xl md:text-2xl font-semibold mb-4">
           2025年春のハッカソン、開催中！
         </h3>
-        <p className="text-gray-700 mb-6">
-          初心者でも大丈夫！Reactでサイトを作ろう
-        </p>
+        <p className="text-gray-700 mb-6">Reactでサイトを作ろう</p>
         <a
           href="https://example.com/apply"
           className="inline-block bg-teal-500 text-white px-6 py-2 rounded-full shadow-md hover:bg-teal-600 transition"
