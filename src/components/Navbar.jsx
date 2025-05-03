@@ -47,13 +47,6 @@ export default function Navbar() {
             </li>
 
             <li className="relative group">
-              <Link to="/menbers" className="text-black hover:text-gray-500 transition-colors duration-200">
-                Members
-              </Link>
-              <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span> {/* 赤文字 */}
-            </li>
-
-            <li className="relative group">
               <Link to="/joinus" className="text-black hover:text-gray-500 transition-colors duration-200">
                 Join Us
               </Link>
