@@ -93,7 +93,7 @@ export default function Navbar() {
         </p>
       </div>
 
-      {/* ナビバー */}
+      {/* ナビバー */}  
      
     </header>
   );
