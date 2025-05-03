@@ -28,23 +28,32 @@ export default function Navbar() {
       </div>
 
       {/* ナビバー */}
-      <nav className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-teal-400 to-green-400 shadow-md z-10">
-        <ul className="w-full flex justify-center gap-6 px-4 py-2 text-white font-medium text-sm">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/schedule">スケジュール</Link>
-          </li>
-          <li>
-            <Link to="/members">members</Link>
-          </li>
-          <li>
-            <Link to="/news">新歓情報</Link>
-          </li>
-          <li>
-            <Link to="/links">Link</Link>
-          </li>
+      <nav className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-70 shadow-md z-10">
+      <ul className="w-full flex justify-center gap-6 px-4 py-2 text-xl text-neutral-950 font-['M_PLUS_1p']">
+  <li>
+    <Link to="/" className="text-black hover:text-gray-500 transition-colors duration-200">Home</Link>
+  </li>
+  <li>
+    <Link to="/schedule" className="text-black hover:text-gray-500 transition-colors duration-200">About</Link>
+  </li>
+  <li>
+    <Link to="/members" className="text-black hover:text-gray-500 transition-colors duration-200">Gallery</Link>
+  </li>
+  <li>
+    <Link to="/news" className="text-black hover:text-gray-500 transition-colors duration-200">Events</Link>
+  </li>
+  <li>
+    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Members</Link>
+  </li>
+  <li>
+    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Join Us</Link>
+  </li>
+  <li>
+    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Links</Link>
+  </li>
+  <li>
+    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Contact</Link>
+  </li>
         </ul>
       </nav>
     </header>
