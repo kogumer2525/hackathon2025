@@ -49,11 +49,12 @@ export default function Navbar() {
     <Link to="/joinus" className="text-black hover:text-gray-500 transition-colors duration-200">Join Us</Link>
   </li>
   <li>
-    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Links</Link>
-  </li>
-  <li>
     <Link to="/contact" className="text-black hover:text-gray-500 transition-colors duration-200">Contact</Link>
   </li>
+  <li>
+    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Links</Link>
+  </li>
+
         </ul>
       </nav>
     </header>
