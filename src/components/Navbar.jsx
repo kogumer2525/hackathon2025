@@ -6,7 +6,7 @@ export default function Navbar() {
       {/* 背景画像（画面全体）
       <div className="absolute inset-0 w-full h-full -z-10">
         <img
-          src="/Hack.png"
+          src="/backpicture.png"
           alt="TEAra header"
           className="w-full h-full object-cover object-top"
         />
@@ -14,16 +14,16 @@ export default function Navbar() {
 
       {/* ロゴ・タイトル（中央） */}
       <div className="w-full h-full flex flex-col items-center justify-center text-white text-center bg-black/30">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 mt-48">
           <img
             src="/teara.png"
             alt="TEAra logo"
-            className="w-12 h-12 object-contain"
+            className="w-32 h-32 object-contain"
           />
-          <h1 className="text-4xl md:text-5xl font-bold">TEAra</h1>
+          <h1 className="text-30xl md:text-30xl font-bold">TEAra</h1>
         </div>
-        <p className="text-sm md:text-base tracking-wide mt-2">
-          お茶大生むけコミュニティ
+        <p className="text-lg md:text-xl font-bold tracking-wide mt-2">
+          お茶大生の開発コミュニティ
         </p>
       </div>
 
