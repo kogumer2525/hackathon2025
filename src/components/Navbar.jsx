@@ -34,25 +34,25 @@ export default function Navbar() {
     <Link to="/" className="text-black hover:text-gray-500 transition-colors duration-200">Home</Link>
   </li>
   <li>
-    <Link to="/schedule" className="text-black hover:text-gray-500 transition-colors duration-200">About</Link>
+    <Link to="/about" className="text-black hover:text-gray-500 transition-colors duration-200">About</Link>
   </li>
   <li>
-    <Link to="/members" className="text-black hover:text-gray-500 transition-colors duration-200">Gallery</Link>
+    <Link to="/gallery" className="text-black hover:text-gray-500 transition-colors duration-200">Gallery</Link>
   </li>
   <li>
-    <Link to="/news" className="text-black hover:text-gray-500 transition-colors duration-200">Events</Link>
+    <Link to="/events" className="text-black hover:text-gray-500 transition-colors duration-200">Events</Link>
   </li>
   <li>
-    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Members</Link>
+    <Link to="/menbers" className="text-black hover:text-gray-500 transition-colors duration-200">Members</Link>
   </li>
   <li>
-    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Join Us</Link>
+    <Link to="/joinus" className="text-black hover:text-gray-500 transition-colors duration-200">Join Us</Link>
   </li>
   <li>
     <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Links</Link>
   </li>
   <li>
-    <Link to="/links" className="text-black hover:text-gray-500 transition-colors duration-200">Contact</Link>
+    <Link to="/contact" className="text-black hover:text-gray-500 transition-colors duration-200">Contact</Link>
   </li>
         </ul>
       </nav>
