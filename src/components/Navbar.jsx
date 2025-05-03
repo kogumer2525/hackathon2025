@@ -6,7 +6,7 @@ export default function Navbar() {
       {/* 背景画像（画面全体）
       <div className="absolute inset-0 w-full h-full -z-10">
         <img
-          src="/backpicture.png"
+          src="/Hack.png"
           alt="TEAra header"
           className="w-full h-full object-cover object-top"
         />
