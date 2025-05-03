@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Events from "./pages/Events";
-import Members from "./pages/Members";
 import JoinUs from "./pages/JoinUs";
 import Contact from "./pages/Contact";
 import Links from "./pages/Links";
@@ -18,7 +17,6 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/members" element={<Members />} />
         <Route path="/links" element={<Links />} />
         <Route path="/joinus" element={<JoinUs />} />
         <Route path="/gallery" element={<Gallery />} />
