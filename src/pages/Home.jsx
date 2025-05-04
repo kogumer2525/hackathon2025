@@ -4,12 +4,21 @@ export default function Home() {プ
       {/* セクション1：キャッチコピー */}
       <section className="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-b from-green-100 to-white">
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
+<<<<<<< HEAD
           ようこそ TEAra へ byHikari これはテストです！
         </h2>
         <p className="text-base md:text-lg text-gray-700 max-w-2xl">
           TEAraは、「何かを作ってみたい」「アウトットしてみたい」――そんな想いを持つ人が集まる、お茶の水女子大学の開発コミュニティです。
           「プログラミングに興味ある！」そんな人たちが集まって、
           ワークショップや勉強会、ハッカソンをゆるく楽しくやってます☕️
+=======
+          ようこそ TEAra へ！by Yukia
+        </h2>
+        <p className="text-base md:text-lg text-gray-700 max-w-2xl">
+          TEAraは、「何かを作ってみたい」「アウトプットしてみたい」<br />そんな想いを持つ人が集まる、お茶の水女子大学の開発コミュニティです。<br />
+          「プログラミングに興味ある！」そんな人たちが集まって、<br />
+          ワークショップや勉強会、ハッカソンをゆるく楽しくやってます☕️<br />
+>>>>>>> 0844c57c1e53b7b4fb02b29e8c3225a4a1e5ed51
           初めてでも大歓迎！まずはこのハッカソンから一緒にやってみませんか？
         </p>
       </section>
