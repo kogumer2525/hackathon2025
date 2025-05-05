@@ -76,8 +76,4 @@ h1 {
   }
 }
 
-@layer utilities {
-  .animate-spin-slow {
-    animation: spin 3s linear infinite;
-  }
-}
+
