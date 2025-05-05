@@ -4,7 +4,7 @@ export default function Contact() {
         <section className="py-16 px-6 bg-gradient-to-b from-green-100 to-white">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Contact</h2>
           <p className="text-base md:text-lg text-gray-700 max-w-2xl">
-            ここにContactページの内容が入るので記入お願いします
+            お問い合わせはこちらからお気軽にどうぞ!
           </p>
         </section>
       </main>
