@@ -38,13 +38,13 @@ export default function About() {
       bg: "bg-purple-100",
     },
     {
-      title: "活動目的",
+      title: "活動目的・理念",
       content: [
         "“お茶の水女子大学の開発コミュニティ”として開発の機会を設けること",
         "さまざまなバックグラウンドを持つ学生たちと協働しながら技術を高めあうこと",
       ],
       bg: "bg-green-50",
-    },
+    }
   ];
 
   return(
@@ -61,7 +61,7 @@ export default function About() {
               // 0度を上(12時)にしたい場合は -90度から始める
               const angle = (360 / cards.length) * i - 90;
               const rad = (angle * Math.PI) / 180;
-              const radius = 380; // 中心からの距離
+              const radius = 350; // 中心からの距離
               const x = radius * Math.cos(rad);
               const y = radius * Math.sin(rad);
               
