@@ -1,27 +1,30 @@
 export default function Home() {
   return (
     <main className="w-full min-h-screen bg-white">
-      {/* セクション1：キャッチコピー */}
-      <section className="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-b from-green-100 to-white">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4">
-          ようこそ TEAra へ！
-        </h2>
-        <p className="text-base md:text-lg text-gray-700 max-w-2xl">
-          TEAraは、「何かを作ってみたい」「アウトプットしてみたい」<br />そんな想いを持つ人が集まる、お茶の水女子大学の開発コミュニティです。<br />
-          「プログラミングに興味ある！」そんな人たちが集まって、<br />
-          ワークショップや勉強会、ハッカソンをゆるく楽しくやってます☕️<br />
-          初めてでも大歓迎！まずはこのハッカソンから一緒にやってみませんか？
-        </p>
+      <section className="flex justify-center items-center py-5 px-6">
+        <div className="max-w-screen-lg w-full flex justify-between items-center space-x-8">
+          {/* 左側の文章 */}
+          <div className="w-1/2 text-left">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+              参加者募集中！
+            </h3>
+            <p className="text-lg text-gray-700">
+              このハッカソンでは、Reactやその他の開発技術を使って、楽しくプロジェクトを作り上げます。どなたでも参加できますので、興味があればぜひご応募ください！
+            </p>
+          </div>
+
+          {/* 右側の画像 */}
+          <div className="w-1/2 flex justify-center">
+            <img
+              src="/Hack.png"
+              alt="TEAra Hackathon Banner"
+              className="w-full max-w-3xl rounded-xl shadow-lg"
+            />
+          </div>
+        </div>
       </section>
 
-      {/* セクション2：画像やバナー */}
-      <section className="flex justify-center py-12">
-        <img
-          src="/Hack.png"
-          alt="TEAra Hackathon Banner"
-          className="w-full max-w-3xl rounded-xl shadow-lg"
-        />
-      </section>
+     
 
       {/* セクション3：CTA */}
       <section className="text-center py-16 bg-green-100">
