@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <main className="w-full min-h-screen bg-white">
+
       <section className="flex justify-center items-center py-5 px-6">
         <div className="max-w-screen-lg w-full flex justify-between items-center space-x-8">
           {/* 左側の文章 */}
