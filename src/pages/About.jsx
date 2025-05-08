@@ -110,7 +110,7 @@ export default function About() {
 
       
  {/* 中央のロゴ */}
- <div className="absolute w-[650px] h-[650px] rounded-full border-4 border-indigo opacity-30"></div>
+ <div className="absolute w-[650px] h-[650px] rounded-full border-4 border-indigo-500 opacity-30"></div>
  <div className="z-10 flex items-center justify-center w-52 h-52 rounded-full bg-indigo-500 text-white text-5xl font-black text-center p-6 shadow-lg animate-spin-slow">
  About TEAra
           </div>
@@ -148,7 +148,8 @@ export default function About() {
 <ul className="text-sm space-y-4 list-disc list-inside text-left">
   {content.map((line, idx) => {
     // マーカーをつけたいキーワード
-    const keywords = ["理学部3号館", "ハッカソン","オンライン","お茶の水女子大学の開発コミュニティ","初心者向けのワークショップ","文系の人"];
+    const keywords = ["理学部3号館", "ハッカソン","オンライン","お茶の水女子大学の開発コミュニティ","初心者向けのワークショップ","文系の人","プログラミング","メンバーを探している","エンジニアリングを教えてみたい"
+    ];
     // どれかが含まれているか
     const found = keywords.find(word => line.includes(word));
     if (found) {
