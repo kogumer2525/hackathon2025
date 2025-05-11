@@ -12,7 +12,7 @@ export default function Gallery() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link to="/gallery/project1">
             <div className="rounded-xl overflow-hidden shadow-md hover:shadow-lg transition cursor-pointer">
-              <img src="/images/project1.png" alt="プロジェクト画像" className="w-full h-48 object-cover" />
+              <img src="/images/project1.png"  className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">プロジェクトタイトル</h3>
                 <p className="text-gray-600">簡単な紹介文がここに入ります。</p>
