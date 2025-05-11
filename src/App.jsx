@@ -9,6 +9,10 @@ import JoinUs from "./pages/JoinUs";
 import Contact from "./pages/Contact";
 import Links from "./pages/Links";
 
+// Routes の中に追加
+
+
+
 
 export default function App() {
   return (
