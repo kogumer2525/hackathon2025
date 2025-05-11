@@ -8,7 +8,6 @@ import Events from "./pages/Events";
 import JoinUs from "./pages/JoinUs";
 import Contact from "./pages/Contact";
 import Links from "./pages/Links";
-import Project1 from "./pages/gallery/Project1";
 
 // Routes の中に追加
 
@@ -28,7 +27,6 @@ export default function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/gallery/project1" element={<Project1 />} />
 
        
       </Routes>
