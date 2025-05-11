@@ -49,16 +49,6 @@ export default function Gallery() {
       details:
         "Webアプリケーション開発で用いられるPythonのFlaskを使って、サーバーサイドの構築をし、クライアントとサーバでHTTP通信を行いました。また、SQLiteを用いてサーバーとDBの接続も行いました。",
     },
-    {
-      date: "2024年6月",
-      title: "バックエンド入門ワークショップ",
-      image: "/workshop3.png",
-      summary: "Pythonを用いたバックエンドのワークショップを開催しました",
-      details:
-        "Webアプリケーション開発で用いられるPythonのFlaskを使って、サーバーサイドの構築をし、クライアントとサーバでHTTP通信を行いました。また、SQLiteを用いてサーバーとDBの接続も行いました。",
-    },
-    
-
   ];
 
   return (
