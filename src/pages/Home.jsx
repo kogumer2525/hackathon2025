@@ -39,7 +39,7 @@ export default function Home() {
      {/* 右側の画像 */}
      <div className="w-1/2 flex justify-center">
       <img
-        src="/Home.about.png"
+        src="/microsoft.png"
         alt="TEAra Hackathon Banner"
         className="w-full max-w-sm rounded-xl shadow-lg"
       />
@@ -47,12 +47,13 @@ export default function Home() {
     {/* 左側の文章 */}
     <div className="w-1/2 text-left">
       <h3 className="text-4xl font-bold text-gray-900 mb-4">GALLERY</h3>
-      <h4 className="text-2xl font-bold text-gray-900 mb-4">日々の活動</h4>
+      <h4 className="text-2xl font-bold text-gray-900 mb-4">活動履歴</h4>
       <p className="text-lg text-gray-700 mb-6">
-      「プログラミングに興味がある！」<br />
-        そんな人たちが集まって、<br />
-        ワークショップや勉強会、ハッカソンを<br />
-        ゆるく楽しくやってます☕️
+      オフィス訪問や合同イベントなど<br />
+        企業との交流も数多くあります。<br />
+        また、ワークショップを通じて
+        <br />
+        さらにスキルを磨くことができます。
       </p>
 
       {/* GALLERYページへのリンクボタン */}
@@ -60,7 +61,7 @@ export default function Home() {
         href="/gallery"
         className="inline-block bg-teal-500 text-white px-6 py-2 rounded-full shadow-md hover:bg-teal-600 transition"
       >
-        活動風景をもっと見る
+        TEAraの活動を見る
       </a>
     </div>
   </div>
@@ -71,14 +72,12 @@ export default function Home() {
     {/* 左側の文章 */}
     <div className="w-1/2 text-left">
       <h3 className="text-4xl font-bold text-gray-900 mb-4">EVENTS</h3>
-      <h4 className="text-2xl font-bold text-gray-900 mb-4">企業との交流</h4>
+      <h4 className="text-2xl font-bold text-gray-900 mb-4">イベント開催情報</h4>
       <p className="text-lg text-gray-700 mb-6">
-      オフィス訪問や合同イベントなど<br />
-        企業との交流も数多くあります。<br />
-        また、ワークショップを通じて
-        <br />
-        さらにスキルを磨くことができます。
-        
+      「プログラミングに興味がある！」<br />
+        そんな人たちが集まって、<br />
+        ワークショップや勉強会、ハッカソンを<br />
+        ゆるく楽しくやってます☕️
       </p>
 
       {/* EVENTSページへのリンクボタン */}
@@ -93,7 +92,7 @@ export default function Home() {
     
     <div className="w-1/2 flex justify-center">
       <img
-        src="/microsoft.png"
+        src="/Home.about.png"
         alt="TEAra Hackathon Banner"
         className="w-full max-w-sm rounded-xl shadow-lg"
       />
