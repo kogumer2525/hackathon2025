@@ -11,11 +11,11 @@ export default function Gallery() {
   const galleryItems = [
     {
       date: "2024年12月",
-      title: "TypeScript&React勉強会",
+      title: "TypeScript&Reactワークショップ",
       image: "/workshop1.png",
       summary: "TypeScript, Reactのワークショップを開催しました",
       details:
-        "TypeScriptというプログラミング言語と、UIを構築するためのライブラリであるReactについて学びました。ワークショップを通して多くの学生がフロントエンド(WebサイトやWebアプリケーションにおいて、ユーザーが直接目にしたり操作したりする部分)を身近に感じることができるようになりました。",
+        "TypeScriptと、UIを構築するためのライブラリであるReactについて学びました。ワークショップを通して多くの学生がフロントエンド(WebサイトやWebアプリケーションにおいて、ユーザーが直接目にしたり操作したりする部分)を身近に感じることができるようになりました。",
     },
     {
       date: "2024年9月",
@@ -26,6 +26,14 @@ export default function Gallery() {
         "オフィスを見学したり、お茶大OGを含む様々な業種の方々とお話ししたりしました。開発までの流れやメルカリでの働き方など、貴重なお話を伺うことができました。",
     },
     {
+      date: "2024年9月",
+      title: "C言語ワークショップ",
+      image: "/workshop2.png",
+      summary: "「プログラムはどう動くか」についてワークショップを開催しました",
+      details:
+        "コンピュータの動作原理の理解に繋がることを目指し、ノイマン型コンピュータの動作方法の確認やバッファオーバーフローのハンズオンなどを行いました。",
+    },
+    {
       date: "2024年8月",
       title: "日本マイクロソフト様 オフィスツアー",
       image: "/Microsoft2.png",
@@ -33,6 +41,24 @@ export default function Gallery() {
       details:
         "約20名の学生が参加し、多職種のOGや社員の皆様から貴重なお話を伺いました。職場環境を見学し、働くイメージが具体的になり、キャリアを考えるきっかけになりました。",
     },
+    {
+      date: "2024年6月",
+      title: "バックエンド入門ワークショップ",
+      image: "/workshop3.png",
+      summary: "Pythonを用いたバックエンドのワークショップを開催しました",
+      details:
+        "Webアプリケーション開発で用いられるPythonのFlaskを使って、サーバーサイドの構築をし、クライアントとサーバでHTTP通信を行いました。また、SQLiteを用いてサーバーとDBの接続も行いました。",
+    },
+    {
+      date: "2024年6月",
+      title: "バックエンド入門ワークショップ",
+      image: "/workshop3.png",
+      summary: "Pythonを用いたバックエンドのワークショップを開催しました",
+      details:
+        "Webアプリケーション開発で用いられるPythonのFlaskを使って、サーバーサイドの構築をし、クライアントとサーバでHTTP通信を行いました。また、SQLiteを用いてサーバーとDBの接続も行いました。",
+    },
+    
+
   ];
 
   return (
